@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+section {
+    padding: 2rem;
+}
+
+
+.sobre-mi-titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sobre-mi-icono {
+    font-size: 2.2rem;
+    vertical-align: middle;
+}
+
+.sobre-mi.mejorada {
+    background: linear-gradient(90deg, #f8fafc 0%, #f4f4f4 100%);
+    border-radius: 18px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.09);
+    padding: 2.2rem 2.5rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    gap: 2.2rem;
+    align-items: flex-start;
+    border-left: 8px solid #0077cc;
+}
+
+.sobre-mi-avatar {
+    flex: 0 0 110px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.sobre-mi-avatar img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+    border: 3px solid #e0e7ef;
+}
+
+.sobre-mi-texto {
+    flex: 1;
+}
+.sobre-mi-texto p {
+    margin-bottom: 1.3rem;
+    line-height: 1.8;
+    font-size: 1.12rem;
+    color: #222;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.gallery {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 220px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover, .enlaces a:focus {
+    color: #005999;
+    text-decoration: underline;
+}
+
+.enlaces {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
