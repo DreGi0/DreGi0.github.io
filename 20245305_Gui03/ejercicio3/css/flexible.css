@@ -22,24 +22,26 @@ h1 {
 
 #superior {
     width: 100%;
-    padding: 30px 0px;
+    padding: 2% 0px;
     background-color: #464d52;
 }
 
 #encabezado {
     margin: 0px auto;
-    width: 960px;
+    width: 80%;
+    min-width: 650px;
+    max-width: 960px;
 }
 
 #descripcion {
-    width: 360px;
-    height: 360px;
+    width: 37.5%;
+    height: auto;
     background-color: #888;
     float: left;
 }
 
 #descripcion p {
-    margin: 20px;
+    margin: 5%;
     color: white;
     font-weight: bold;
     line-height: 180%;
@@ -55,9 +57,16 @@ h1 {
 }
 
 #contenido {
-    width: 960px;
+    width: 80%;
     margin: 0px auto;
+    min-width: 650px;
+    max-width: 960px;
     clear: left;
+}
+
+#superior #encabezado #logo {
+    margin: 2% 0px;
+    width: 21%;
 }
 
 /* PiE DE PAGINA */
@@ -84,6 +93,11 @@ footer {
     text-align: justify;
 }
 
+.plan img {
+    width: 100%;
+    height: auto;
+}
+
 #contenido div:nth-child(3n+1) {
     margin-left: 0px;
 }
@@ -97,6 +111,11 @@ footer {
     width: 900px;
     background: white;
     padding: 10px 30px;
+}
+
+.planes img {
+    width: 100%;
+    height: auto;
 }
 
 .planes h1{
@@ -116,6 +135,10 @@ footer {
 #galeria .plan {
     text-align: center;
     font-style: italic;
+    margin: 30px 1.4% 10px;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
 }
 
 #galeria .plan {

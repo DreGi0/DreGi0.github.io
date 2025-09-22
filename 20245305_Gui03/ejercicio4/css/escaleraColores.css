@@ -1,0 +1,40 @@
+/* escaleraColores.css */
+
+body {
+  position: relative;
+  height: 400px;
+}
+
+div {
+  position: absolute;
+}
+
+#diez_de_diamantes {
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+#sota_de_diamantes {
+  top: 20px;
+  left: 40px;
+  z-index: 2;
+}
+
+#reina_de_diamantes {
+  top: 40px;
+  left: 80px;
+  z-index: 3;
+}
+
+#rey_de_diamantes {
+  top: 60px;
+  left: 120px;
+  z-index: 4;
+}
+
+#as_de_diamantes {
+  top: 80px;
+  left: 160px;
+  z-index: 5;
+}
