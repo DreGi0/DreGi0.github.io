@@ -3,43 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hub - Guías</title>
+    <title>Portafolio - André Giovanni Iraheta</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="student-info">20245305 - André Giovanni Iraheta Guevara</div>
-    <h1>Hub de Guías</h1>
+    <div class="container">
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="#inicio" class="active">Inicio</a></li>
+                <li><a href="#curso">Curso</a></li>
+                <li><a href="#guias">Guías</a></li>
+                <li><a href="#foda">FODA</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
 
-    <h2>Guía 01</h2>
-    <ul>
-        <li><a href="20245305_Guia01/Ejemplos/estilos_embebidos.html">Ejemplo 1 - Estilos embebidos</a></li>
-        <li><a href="20245305_Guia01/Ejemplos/ejemplo2.html">Ejemplo 2 - Estilos en etiqueta</a></li>
-        <li><a href="20245305_Guia01/Ejemplos/paises.html">Ejemplo 3 - Países de Centroamérica</a></li>
-        <li><a href="20245305_Guia01/Serie/serie.html">Página personal de una serie</a></li>
-    </ul>
+        <!-- Header -->
+        <header id="inicio">
+            <h1>André Giovanni Iraheta Guevara</h1>
+            <p class="carnet">20245305</p>
+            <p class="bio">
+                Estudiante de Ingeniería de Software y Negocios Digitales (ISND) en la Escuela Superior de Economía y 
+                Negocios (ESEN). Este portafolio documenta mi aprendizaje durante el curso de Desarrollo Web, desde 
+                fundamentos de HTML y CSS hasta técnicas de diseño responsivo.
+            </p>
+        </header>
 
-    <h2>Guía 02</h2>
-    <ul>
-        <li><a href="20245305_Guia02/pelicula.html">Película</a></li>
-        <li><a href="20245305_Guia02/tablero.html">Tablero</a></li>
-        <li><a href="20245305_Guia02/bio.html">Biografía</a></li>
-    </ul>
+        <!-- Información del curso -->
+        <section id="curso">
+            <h2>Información del Curso</h2>
+            <div class="materia-info">
+                <div class="info-card">
+                    <h3>Descripción</h3>
+                    <p>Desarrollo Web cubre fundamentos y técnicas modernas para crear aplicaciones web interactivas y responsivas.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Contenidos</h3>
+                    <p>HTML5, CSS3, Flexbox, Grid Layout, diseño responsivo, JavaScript y manipulación del DOM.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Objetivos</h3>
+                    <p>Desarrollar competencias para diseñar y construir sitios web modernos y optimizados para diferentes dispositivos.</p>
+                </div>
+            </div>
+        </section>
 
-    <h2>Guía 03</h2>
-    <ul>
-        <li><a href="20245305_Gui03/ejercicio1/index.html">Ejericio 1</a></li>
-        <li><a href="20245305_Gui03/ejercicio2/menu_horizontal.html">Ejericio 2</a></li>
-        <li><a href="20245305_Gui03/ejercicio3/index.html">Ejericio 3</a></li>
-        <li><a href="20245305_Gui03/ejercicio4/analisis.html">Ejericio 4</a></li>
-    </ul>
+        <!-- Guías -->
+        <section id="guias">
+            <h2>Guías de trabajo</h2>
+            <div class="guias-container">
+                <div class="guia-card">
+                    <h3>Guía 01: Fundamentos de HTML y CSS</h3>
+                    <p class="guia-description">
+                        Introducción a HTML5 y CSS3. Exploración de diferentes formas de aplicar estilos y 
+                        trabajo con estructura semántica. Incluye creación de una página personal sobre una serie.
+                    </p>
+                    <ul class="ejercicios-list">
+                        <li><a href="20245305_Guia01/Ejemplos/estilos_embebidos.html">Estilos embebidos</a></li>
+                        <li><a href="20245305_Guia01/Ejemplos/ejemplo2.html">Estilos en etiqueta</a></li>
+                        <li><a href="20245305_Guia01/Ejemplos/paises.html">Países de Centroamérica</a></li>
+                        <li><a href="20245305_Guia01/Serie/serie.html">Página de serie</a></li>
+                    </ul>
+                </div>
 
-    <footer style="text-align:center; margin-top:40px; padding:20px 0; background:#f0f0f0;">
-        <a href="https://github.com/DreGi0" target="_blank" style="color:#333; text-decoration:none; font-weight:bold;">
-            GitHub
-        </a>
-    </footer>
+                <div class="guia-card">
+                    <h3>Guía 02: Diseño y Maquetación</h3>
+                    <p class="guia-description">
+                        Técnicas de maquetación con CSS. Trabajo con modelo de caja, posicionamiento y diseño 
+                        de layouts. Ejercicios incluyen página de película, tablero y biografía.
+                    </p>
+                    <ul class="ejercicios-list">
+                        <li><a href="20245305_Guia02/pelicula.html">Película</a></li>
+                        <li><a href="20245305_Guia02/tablero.html">Tablero</a></li>
+                        <li><a href="20245305_Guia02/bio.html">Biografía</a></li>
+                    </ul>
+                </div>
+
+                <div class="guia-card">
+                    <h3>Guía 03: CSS Avanzado y Responsive Design</h3>
+                    <p class="guia-description">
+                        Técnicas avanzadas incluyendo Flexbox, Grid Layout y Media Queries. Desarrollo de 
+                        navegación horizontal, layouts adaptativos y análisis de sitios web.
+                    </p>
+                    <ul class="ejercicios-list">
+                        <li><a href="20245305_Gui03/ejercicio1/index.html">Ejercicio 1</a></li>
+                        <li><a href="20245305_Gui03/ejercicio2/menu_horizontal.html">Ejercicio 2</a></li>
+                        <li><a href="20245305_Gui03/ejercicio3/index.html">Ejercicio 3</a></li>
+                        <li><a href="20245305_Gui03/ejercicio4/analisis.html">Ejercicio 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- FODA -->
+        <section id="foda">
+            <h2>Análisis FODA</h2>
+            <div class="foda-container">
+                <div class="foda-card fortalezas">
+                    <h3>Fortalezas</h3>
+                    <ul>
+                        <li>Comprensión de HTML semántico</li>
+                        <li>Manejo de Flexbox</li>
+                        <li>Implementación de Media Queries</li>
+                        <li>Organización de código</li>
+                    </ul>
+                </div>
+
+                <div class="foda-card oportunidades">
+                    <h3>Oportunidades</h3>
+                    <ul>
+                        <li>Proyectos freelance</li>
+                        <li>Aprender frameworks modernos</li>
+                        <li>Contribuir a proyectos open source</li>
+                        <li>Desarrollo full-stack</li>
+                        <li>Crear proyectos propios</li>
+                    </ul>
+                </div>
+
+                <div class="foda-card debilidades">
+                    <h3>Debilidades</h3>
+                    <ul>
+                        <li>Estructuración de folders</li>
+                        <li>Nivel complejo de JavaScript</li>
+                        <li>Animaciones complejas</li>
+                        <li>SEO</li>
+                    </ul>
+                </div>
+
+                <div class="foda-card amenazas">
+                    <h3>Amenazas</h3>
+                    <ul>
+                        <li>Carga académica</li>
+                        <li>Actualización constante de tecnologías</li>
+                        <li>Complejidad del mundo profesional de desarrollo Web</li>
+                        <li>Gestión del tiempo</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="contacto">
+            <div class="footer-links">
+                <a href="https://github.com/DreGi0" target="_blank">GitHub</a>
+                <a href="mailto:20245305@esen.edu.sv">Email</a>
+            </div>
+            <p class="footer-text">© 2025 André Giovanni Iraheta | Desarrollo Web</p>
+        </footer>
+    </div>
 </body>
 </html>
-
-
-
