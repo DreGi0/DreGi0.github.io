@@ -5,6 +5,8 @@ const numIntentos = 3;
 
 let intentos = 1;
 
+
+
 function generarNumAleatorio() 
 {
     let mensaje;
@@ -18,11 +20,17 @@ function generarNumAleatorio()
 
         if (numero == numAleatorio)
         {
-            mensaje = "número correcto"
+            mensaje =  "Felicidades, " + numero + " es el número correcto."
         } else if (intentos == numIntentos) {
             mensaje = "Sin más intentos. Número era: " + numAleatorio
         } else {
-            mensaje = "Intenta de nuevo. Quedan " + numIntentos - intentos + "intentos";
+            mensaje = "Intenta de nuevo. Quedan " + (numIntentos - intentos) + " intentos.";
+
+            if (numero > numAleatorio) {
+                mensaje +=  " " + numero + " es mayor al número aleatorio.";
+            } else if (numero < numAleatorio) {
+                mensaje +=  " " + numero + " es menor al número aleatorio.";
+            }
         }
 
         intentos++;
